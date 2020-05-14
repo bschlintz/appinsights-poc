@@ -1,0 +1,5 @@
+{
+  "appService.preDeployTask": "publish-release",
+  "appService.deploySubpath": "",
+  "appService.defaultWebAppToDeploy": "/subscriptions/b389e1ac-0f0e-4546-8fc9-0cbe5984f141/resourceGroups/AppMonitoringDemo/providers/Microsoft.Web/sites/AppMonitoringSampleAPI"
+}
