@@ -16,7 +16,7 @@
       console.error(`CacheService.get error`, error);
       return null;
     }
-  }
+  };
 
   /**
    * Helper function to set an item by key into session storage
@@ -33,6 +33,6 @@
       console.error(`CacheService.set error`, error);
       return null;
     }
-  }
+  };
 
   export default { get, set };

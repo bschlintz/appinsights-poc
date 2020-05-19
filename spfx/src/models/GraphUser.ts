@@ -5,4 +5,4 @@ export type GraphUser = {
   mail: string;
   userType: string;
   userPrincipalName: string;
-}
+};

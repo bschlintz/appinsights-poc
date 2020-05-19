@@ -14,6 +14,7 @@
     "release": "gulp clean & gulp bundle -p & gulp package-solution -p"
   },
   "dependencies": {
+    "@fluentui/react": "^7.115.0",
     "@microsoft/applicationinsights-web": "^2.5.4",
     "@microsoft/sp-core-library": "1.10.0",
     "@microsoft/sp-lodash-subset": "1.10.0",
@@ -23,7 +24,6 @@
     "@types/react": "16.8.8",
     "@types/react-dom": "16.8.3",
     "@types/webpack-env": "1.13.1",
-    "office-ui-fabric-react": "6.189.2",
     "react": "16.8.5",
     "react-dom": "16.8.5"
   },
