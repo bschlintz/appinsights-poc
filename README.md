@@ -1,6 +1,6 @@
 # App Insights Proof of Concept
 ## Overview
-The goal of this POC is to demonstrate how Azure Application Insights can be used to instrument an application end-to-end. The application consists of a SharePoint Framework web part, Azure API Management securing an Azure App Service API written in .NET Core, and a SQL database hosted in Azure SQL. Every layer of the application is enabled for App Insights so it becomes possible to see a complete transaction starting from the SharePoint web part to the SQL database query and back.
+The goal of this POC is to demonstrate how [Azure Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) can be used to instrument an application end-to-end. The application consists of a SharePoint Framework web part, Azure API Management securing an Azure App Service API written in .NET Core, and a SQL database hosted in Azure SQL. Every layer of the application is enabled for App Insights so it becomes possible to see a complete transaction starting from the SharePoint web part to the SQL database query and back.
 
 ![](/images/AI_ApplicationMap.png)
 ![](/images/AI_E2ETransaction.png)
